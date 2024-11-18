@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a90fdc7-970c-4434-8330-297922c6d1f6" name="Changes" comment="" />
+    <list default="true" id="6a90fdc7-970c-4434-8330-297922c6d1f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data_training/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_training/src/main/java/com/lam/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_training/src/test/java/com/lam/model/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +24,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lzruiv4"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:lzruiv4/java_daily.git",
+    "accountId": "f1b36309-bb10-4999-bba6-c88c56973845"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -42,6 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Rebasing master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -182,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731884402046</updated>
       <workItem from="1731884404139" duration="1481000" />
-      <workItem from="1731885899437" duration="3616000" />
+      <workItem from="1731885899437" duration="3952000" />
     </task>
     <servers />
   </component>
