@@ -8,8 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class AddressTest {
 
@@ -37,6 +36,17 @@ class AddressTest {
         assertEquals(5, addressInList.getPostalCode().getPostalCodeLength());
         assertTrue(addressInList.getPostalCode().isValid());
         assertEquals("Bonn", addressInList.getCity());
+    }
+
+    @Test
+    void testPostalCodeInvalid() {
+        Address address2 = new Address
+                .Builder()
+                .addPostalCode(new PostalCode("12345", 3))
+                .build();
+        assertEquals("12345", address2.getPostalCode().getPostalCode());
+        assertEquals(3, address2.getPostalCode().getPostalCodeLength());
+        assertFalse(address2.getPostalCode().isValid());
     }
 
 }
