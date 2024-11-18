@@ -1,12 +1,15 @@
-package com.lam.designPattern.builder.address;
+package com.lam.builder_pattern;
 
+import com.lam.model.Address;
+import com.lam.model.PostalCode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AddressTest {
 

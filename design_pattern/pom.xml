@@ -7,10 +7,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>data_training</artifactId>
+    <artifactId>design_pattern</artifactId>
     <packaging>jar</packaging>
 
-    <name>data_training</name>
+    <name>design_pattern</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -18,6 +18,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.lam</groupId>
+            <artifactId>data_training</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>

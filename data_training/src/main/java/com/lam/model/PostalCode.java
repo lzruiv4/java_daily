@@ -1,4 +1,4 @@
-package com.lam.designPattern.builder.address;
+package com.lam.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
