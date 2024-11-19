@@ -10,7 +10,7 @@ import java.util.function.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
-class PersonTest {
+class RecordTest {
 
     List<Person> personList = new ArrayList<>();
 
