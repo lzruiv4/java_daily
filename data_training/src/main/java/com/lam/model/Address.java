@@ -2,15 +2,17 @@ package com.lam.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 public class Address {
 
-    private final String street;
-    private final int houseNumber;
-    private final PostalCode postalCode;
-    private final String city;
+    private String street;
+    private int houseNumber;
+    private PostalCode postalCode;
+    private String city;
 
     public static class Builder {
 
